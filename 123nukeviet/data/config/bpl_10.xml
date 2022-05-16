@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plan>
+  <id>10</id>
+  <lang></lang>
+  <title>video</title>
+  <form>sequential</form>
+  <width>209</width>
+  <height>150</height>
+  <banners>
+    <banners_item>
+      <id>37</id>
+      <title>LỄ HỘI ĐUA THUYỀN HUYỆN QUẢNG NINH 2017</title>
+      <clid>1</clid>
+      <file_name>line-png-32_2.png</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/png</file_mime>
+      <file_width>200</file_width>
+      <file_height>1</file_height>
+      <file_alt></file_alt>
+      <file_click></file_click>
+      <target>_blank</target>
+      <bannerhtml>&lt;iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0" height="150" src="https://www.youtube.com/embed/1Zh6PWb37Qw" width="209"&gt;&lt;/iframe&gt;</bannerhtml>
+      <publ_time>1552900260</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+  </banners>
+</plan>

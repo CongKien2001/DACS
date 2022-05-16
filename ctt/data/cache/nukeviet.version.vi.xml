@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cms>
+	<name><![CDATA[NukeViet eGovernment 1.1.02]]></name>
+	<version><![CDATA[1.1.02]]></version>
+	<date><![CDATA[Wed, 02 Jan 2019 17:00:00 GMT]]></date>
+	<message><![CDATA[Bản vá lỗi bảo mật của dòng NukeViet eGovernment, chú ý đọc thật kỹ hướng dẫn cập nhật tại https://github.com/nukeviet/update-egov/blob/to-1.1.02/README.md trước khi thực hiện cập nhật]]></message>
+	<link><![CDATA[https&#x3A;&#x002F;&#x002F;nukeviet.vn&#x002F;vi&#x002F;egov&#x002F;]]></link>
+	<updateable><![CDATA[1.1.00]]></updateable>
+	<updatepackage><![CDATA[16]]></updatepackage>
+</cms>

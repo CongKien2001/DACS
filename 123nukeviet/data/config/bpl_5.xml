@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plan>
+  <id>5</id>
+  <lang></lang>
+  <title>Quảng cáo trái</title>
+  <form>sequential</form>
+  <width>202</width>
+  <height>156</height>
+  <banners>
+    <banners_item>
+      <id>5</id>
+      <title>Quảng cáo trái</title>
+      <clid>1</clid>
+      <file_name>ezgif.com-resize_1513580605319.gif</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>gif</file_ext>
+      <file_mime>image/gif</file_mime>
+      <file_width>206</file_width>
+      <file_height>150</file_height>
+      <file_alt></file_alt>
+      <file_click></file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1552616849</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+  </banners>
+</plan>

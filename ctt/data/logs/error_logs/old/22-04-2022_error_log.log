@@ -1,0 +1,14 @@
+[Fri, 22 Apr 2022 08:27:09 +0700] [localhost] [::1] [Run-time notices(8192): Optional parameter $page_title declared before required parameter $info_content is implicitly treated as a required parameter] [FILE: /includes/core/theme_functions.php] [LINE: 94]
+[Fri, 22 Apr 2022 08:27:09 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in C:\xampp\htdocs\ctt\vendor\vinades\nukeviet\Cache\Files.php:228
+Stack trace:
+#0 C:\xampp\htdocs\ctt\vendor\vinades\nukeviet\Cache\Files.php(228): PDO->query('SELECT lang, mo...')
+#1 C:\xampp\htdocs\ctt\includes\mainfile.php(309): NukeViet\Cache\Files->db('SELECT lang, mo...', '', 'settings')
+#2 C:\xampp\htdocs\ctt\index.php(21): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Cache/Files.php] [LINE: 228]
+[Fri, 22 Apr 2022 08:31:06 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 728]
+[Fri, 22 Apr 2022 08:31:06 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 732]
+[Fri, 22 Apr 2022 08:31:06 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 736]
+[Fri, 22 Apr 2022 08:31:06 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 742]
+[Fri, 22 Apr 2022 08:31:06 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated] [FILE: /themes/egov/theme.php] [LINE: 264]
+[Fri, 22 Apr 2022 08:40:22 +0700] [localhost] [::1] [Warning(2): Undefined array key 13] [FILE: /themes/egov/modules/news/theme.php] [LINE: 228]

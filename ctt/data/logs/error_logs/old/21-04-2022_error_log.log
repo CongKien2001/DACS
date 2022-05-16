@@ -1,0 +1,26 @@
+[Thu, 21 Apr 2022 21:02:52 +0700] [localhost] [::1] [Run-time notices(8192): Optional parameter $page_title declared before required parameter $info_content is implicitly treated as a required parameter] [FILE: /includes/core/theme_functions.php] [LINE: 94]
+[Thu, 21 Apr 2022 21:02:52 +0700] [localhost] [::1] [Error(1): Uncaught PDOException: SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in C:\xampp\htdocs\ctt\vendor\vinades\nukeviet\Cache\Files.php:228
+Stack trace:
+#0 C:\xampp\htdocs\ctt\vendor\vinades\nukeviet\Cache\Files.php(228): PDO->query('SELECT lang, mo...')
+#1 C:\xampp\htdocs\ctt\includes\mainfile.php(309): NukeViet\Cache\Files->db('SELECT lang, mo...', '', 'settings')
+#2 C:\xampp\htdocs\ctt\index.php(21): require('C:\\xampp\\htdocs...')
+#3 {main}
+  thrown] [FILE: /vendor/vinades/nukeviet/Cache/Files.php] [LINE: 228]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Warning(2): Undefined array key "gid"] [FILE: /includes/mainfile.php] [LINE: 439]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 728]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 732]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 736]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 742]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Warning(2): Undefined array key "googleMapsAPI"] [FILE: /themes/default/blocks/global.company_info.php] [LINE: 176]
+[Thu, 21 Apr 2022 21:10:10 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated] [FILE: /themes/default/theme.php] [LINE: 338]
+[Thu, 21 Apr 2022 21:10:11 +0700] [localhost] [::1] [Error(1): Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, null given in C:\xampp\htdocs\ctt\vendor\gregwar\captcha\CaptchaBuilder.php:333
+Stack trace:
+#0 C:\xampp\htdocs\ctt\vendor\gregwar\captcha\CaptchaBuilder.php(333): count(NULL)
+#1 C:\xampp\htdocs\ctt\vendor\gregwar\captcha\CaptchaBuilder.php(440): Gregwar\Captcha\CaptchaBuilder->writePhrase(Object(GdImage), '412318', 'C:\\xampp\\htdocs...', 150, 40)
+#2 C:\xampp\htdocs\ctt\includes\core\captcha.php(26): Gregwar\Captcha\CaptchaBuilder->build(150, 40)
+#3 C:\xampp\htdocs\ctt\includes\mainfile.php(265): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ctt\index.php(21): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown] [FILE: /vendor/gregwar/captcha/CaptchaBuilder.php] [LINE: 333]
+[Thu, 21 Apr 2022 21:11:03 +0700] [localhost] [::1] [User Notice(1024): SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)] [FILE: /vendor/vinades/nukeviet/Core/Database.php] [LINE: 75]
+[Thu, 21 Apr 2022 21:11:03 +0700] [localhost] [::1] [User Error(256): Sorry! Could not connect to data server] [FILE: /includes/mainfile.php] [LINE: 281]

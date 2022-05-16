@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plan>
+  <id>9</id>
+  <lang></lang>
+  <title>Lịch làm việc</title>
+  <form>sequential</form>
+  <width>400</width>
+  <height>200</height>
+  <banners>
+    <banners_item>
+      <id>15</id>
+      <title>Lịch làm việc</title>
+      <clid>1</clid>
+      <file_name>lichcongtac.png</file_name>
+      <imageforswf></imageforswf>
+      <file_ext>png</file_ext>
+      <file_mime>image/png</file_mime>
+      <file_width>210</file_width>
+      <file_height>64</file_height>
+      <file_alt></file_alt>
+      <file_click>http://daihiep.gov.vn/index.php?language=vi&amp;nv=lich-cong-tac</file_click>
+      <target>_blank</target>
+      <bannerhtml></bannerhtml>
+      <publ_time>1519873860</publ_time>
+      <exp_time>0</exp_time>
+    </banners_item>
+  </banners>
+</plan>
