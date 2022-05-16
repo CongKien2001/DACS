@@ -1,7 +1,0 @@
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): Optional parameter $page_title declared before required parameter $info_content is implicitly treated as a required parameter] [FILE: /includes/core/theme_functions.php] [LINE: 94]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 728]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 732]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): preg_match(): Passing null to parameter #2 ($subject) of type string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 736]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #3 ($subject) of type array|string is deprecated] [FILE: /includes/xtemplate.class.php] [LINE: 742]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Run-time notices(8192): str_replace(): Passing null to parameter #2 ($replace) of type array|string is deprecated] [FILE: /themes/tintuc/theme.php] [LINE: 338]
-[Sun, 24 Apr 2022 13:12:16 +0700] [localhost] [::1] [Warning(2): Undefined array key "content"] [FILE: /vendor/vinades/nukeviet/Core/Optimizer.php] [LINE: 92]
